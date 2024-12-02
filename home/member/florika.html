@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Florika</title>
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header
+      class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent"
+    >
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <a href="#home" class="text-first block py-6 text-lg font-bold"
+              >Florika</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute right-4 block lg:hidden"
+            >
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-second group-hover:text-first mx-8 flex py-2 text-base"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#skills"
+                    class="text-second group-hover:text-first mx-8 flex py-2 text-base"
+                    >Keahlian</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#experience"
+                    class="text-second group-hover:text-first mx-8 flex py-2 text-base"
+                    >Pengalaman</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#certificate"
+                    class="text-second group-hover:text-first mx-8 flex py-2 text-base"
+                    >Sertifikat</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-second group-hover:text-first mx-8 flex py-2 text-base"
+                    >Kontak</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-first text-base font-semibold md:text-xl">
+              Hallo 👋, Saya
+              <span class="text-second block text-4xl font-bold">Florika</span>
+            </h1>
+            <h2 class="text-third mb-5 text-lg font-medium md:text-xl">
+              Mahasiswa STMIK Widya Cipta Dharma
+            </h2>
+            <p class="text-fourth mb-10 font-medium">
+              Mahasiswa Teknik Informatika yang antusias dengan teknologi
+              terbaru dan solusi berbasis data. Mencari peluang untuk memperluas
+              pengalaman di bidang pengembangan perangkat lunak dan analisis
+              data.
+            </p>
+
+            <a
+              href="#"
+              class="bg-first rounded-full px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg"
+              >Download CV</a
+            >
+
+            <div class="flex items-center">
+              <!-- github -->
+              <a
+                href="https://github.com/florikaika"
+                target="_blank"
+                class="border-black hover:border-first hover:bg-first mr-3 mt-8 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/github.png"
+                  alt="github"
+                  class="transition duration-200 ease-in-out hover:brightness-0 hover:invert"
+                />
+              </a>
+              <!-- LinkedIn -->
+              <a
+                href=""
+                target="_blank"
+                class="border-black hover:border-first hover:bg-first mr-3 mt-8 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/linkedin.png"
+                  alt="LinkedIn"
+                  class="transition duration-200 ease-in-out hover:brightness-0 hover:invert"
+                />
+              </a>
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/__secretaqua2/"
+                target="_blank"
+                class="border-black hover:border-first hover:bg-first mr-3 mt-8 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/instagram.png"
+                  alt="Instagram"
+                  class="transition duration-200 ease-in-out hover:brightness-0 hover:invert"
+                />
+              </a>
+              <!-- Facebook -->
+              <a
+                href="https://web.facebook.com/florika.ikaa"
+                target="_blank"
+                class="border-black hover:border-first hover:bg-first mr-3 mt-8 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/facebook.png"
+                  alt="Facebook"
+                  class="transition duration-200 ease-in-out hover:brightness-0 hover:invert"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:right-0 lg:mt-9">
+              <img
+                src="../img/florika/florika.png"
+                alt="Florika"
+                class="mx-auto max-w-full"
+              />
+              <span
+                class="absolute -bottom-10 left-1/2 -z-10 -translate-x-1/2 md:scale-125"
+                ><svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#6A1E55"
+                    d="M47.4,-60.9C58.7,-47,63.3,-29.5,66.2,-11.8C69.2,5.9,70.5,23.7,64.6,40.5C58.7,57.2,45.5,72.9,29.8,76.3C14.1,79.6,-4.1,70.5,-22.3,63C-40.4,55.6,-58.4,49.9,-70,37C-81.6,24,-86.7,3.9,-83.8,-15.2C-80.9,-34.3,-70.1,-52.5,-54.8,-65.7C-39.5,-78.8,-19.7,-87.1,-0.8,-86C18.1,-85,36.1,-74.8,47.4,-60.9Z"
+                    transform="translate(100 100) scale(1.2)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section-->
+    <section id="skills" class="bg-gray-100 pb-24 pt-20">
+      <div class="container">
+        <div class="w-full px-4">
+          <h2 class="text-second mb-12 text-center text-3xl font-bold">
+            Keahlian
+          </h2>
+          <div class="flex flex-wrap justify-center gap-14">
+            <!-- My Skill -->
+            <div class="group text-center">
+              <img
+                src="../img/html.png"
+                alt="HTML Icon"
+                class="mx-auto h-20 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <h3 class="text-second mt-4 text-lg font-semibold">HTML</h3>
+            </div>
+            <div class="group text-center">
+              <img
+                src="../img/css.png"
+                alt="HTML Icon"
+                class="mx-auto h-20 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <h3 class="text-second mt-4 text-lg font-semibold">CSS</h3>
+            </div>
+            <div class="group text-center">
+              <img
+                src="../img/javascript.png"
+                alt="HTML Icon"
+                class="mx-auto h-20 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <h3 class="text-second mt-4 text-lg font-semibold">JavaScript</h3>
+            </div>
+            <div class="group text-center">
+              <img
+                src="../img/php.png"
+                alt="HTML Icon"
+                class="mx-auto h-20 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <h3 class="text-second mt-4 text-lg font-semibold">PHP</h3>
+            </div>
+            <div class="group text-center">
+              <img
+                src="../img/python.png"
+                alt="HTML Icon"
+                class="mx-auto h-20 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <h3 class="text-second mt-4 text-lg font-semibold">Python</h3>
+            </div>
+            <div class="group text-center">
+              <img
+                src="../img/sql.png"
+                alt="HTML Icon"
+                class="mx-auto h-20 w-20 transition-transform duration-300 group-hover:scale-110"
+              />
+              <h3 class="text-second mt-4 text-lg font-semibold">SQL</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="pt-20">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-xl text-center">
+            <h2 class="text-first mb-4 text-3xl font-semibold">Pengalaman</h2>
+            <h3 class="text-second text-xl font-bold">Internship</h3>
+            <h4 class="text-third text-md mb-2 font-bold">
+              PT. Telkom Akses - 2024
+            </h4>
+            <p class="text-md text-fourth mb-2 font-medium">
+              "Selama magang di PT Telkom Akses sebagai Drafter, saya
+              bertanggung jawab menginput data kabel feeder ke aplikasi WASAKA,
+              memperbarui data peta di Google Earth, meng-approve data N-IMON,
+              serta melakukan input dan validasi data ODP Expand menggunakan
+              aplikasi TOMPS."
+            </p>
+            <a href="" target="_blank"
+              ><img src="../img/florika/magang.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certificate" class="bg-gray-100 py-20">
+      <div class="container">
+        <div class="w-full px-4">
+          <h2 class="text-second mb-12 text-center text-3xl font-bold">
+            Sertifikat
+          </h2>
+          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2">
+            <div class="overflow-hidden rounded-lg bg-white shadow-md">
+              <img
+                src="../img/florika/lulus.png"
+                alt="Certificate 1"
+                class="h-48 w-full object-cover"
+              />
+              <div class="p-4">
+                <a
+                  href="https://drive.google.com/drive/folders/1g4eXUJLbK5A6LLOKUXAFUBBcHDN2P-j4"
+                  target="_blank"
+                  class="block text-center text-lg font-semibold text-gray-800 transition duration-300 hover:text-blue-600"
+                >
+                  PT. Telkom Akses - Fiber Optik
+                </a>
+              </div>
+            </div>
+            <div class="overflow-hidden rounded-lg bg-white shadow-md">
+              <img
+                src="../img/florika/msib.png"
+                alt="Certificate 1"
+                class="h-48 w-full object-cover"
+              />
+              <div class="p-4">
+                <a
+                  href="https://drive.google.com/file/d/1G_vE7mSRbPPofUSFyj6Us4KnZhUzfbhB/view?usp=drive_link"
+                  target="_blank"
+                  class="block text-center text-lg font-semibold text-gray-800 transition duration-300 hover:text-blue-600"
+                >
+                  Sertifikat Kepesertaan - Magang Bersertifikat Angkatan 6
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-28 dark:bg-slate-300">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-xl text-center">
+            <h4 class="text-first mb-2 text-lg font-semibold">Kontak</h4>
+            <h2
+              class="second:text-white mb-4 text-3xl font-bold text-black sm:text-4xl lg:text-5xl"
+            >
+              Hubungi Kami
+            </h2>
+            <p class="text-md font-medium text-black md:text-lg">
+              Silakan hubungi kami untuk pertanyaan atau bantuan.
+            </p>
+          </div>
+        </div>
+
+        <form>
+          <div class="w-full lg:mx-auto lg:w-2/3">
+            <div class="mb-8 w-full px-4">
+              <label for="name" class="text-first text-base font-bold"
+                >Nama</label
+              >
+              <input
+                type="text"
+                id="name"
+                class="text-second focus:border-l-first focus:ring-first w-full rounded-md bg-slate-200 p-3 focus:outline-none focus:ring-1"
+              />
+            </div>
+            <div class="mb-8 w-full px-4">
+              <label for="email" class="text-first text-base font-bold"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="text-second focus:border-first focus:ring-first w-full rounded-md bg-slate-200 p-3 focus:outline-none focus:ring-1"
+              />
+            </div>
+            <div class="mb-8 w-full px-4">
+              <label for="message" class="text-first text-base font-bold"
+                >Pesan</label
+              >
+              <textarea
+                type="email"
+                id="email"
+                class="text-second focus:border-first focus:ring-first h-32 w-full rounded-md bg-slate-200 p-3 focus:outline-none focus:ring-1"
+              ></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="bg-first w-full rounded-full px-8 py-3 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg"
+              >
+                Kirim
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 pb-8 pt-12 text-gray-400">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <!-- Me Address -->
+          <div class="mb-8 w-full px-4 font-medium text-slate-300 md:w-1/3">
+            <h3 class="mb-4 font-semibold text-white">Hubungi Saya</h3>
+            <p>meikel71011jr@gmail.com</p>
+            <p>Jl. Batu Cermin, Perumahan Sempaja Residience</p>
+            <p>Samarinda</p>
+          </div>
+
+          <!-- Resources -->
+          <div class="mb-8 w-full px-4 font-medium text-slate-300 md:w-1/3">
+            <h3 class="mb-4 font-semibold text-white">Tautan</h3>
+            <ul>
+              <li><a href="#home" class="hover:text-first">Beranda</a></li>
+              <li><a href="#skills" class="hover:text-first">Keahlian</a></li>
+              <li>
+                <a href="#experience" class="hover:text-first">Pengalaman</a>
+              </li>
+              <li>
+                <a href="#certificate" class="hover:text-first">Sertifikat</a>
+              </li>
+              <li><a href="#contact" class="hover:text-first">Kontak</a></li>
+            </ul>
+          </div>
+
+          <!-- Follow Me -->
+          <div class="mb-8 w-full px-4 md:w-1/3">
+            <h3 class="mb-4 font-semibold text-white">Follow Saya</h3>
+            <div class="flex space-x-4">
+              <!-- GitHub -->
+              <a
+                href="https://github.com/florikaika"
+                target="_blank"
+                class="border-second hover:border-first hover:bg-first flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/github.png"
+                  alt="GitHub"
+                  class="invert filter transition duration-200 ease-in-out hover:invert-0"
+                />
+              </a>
+              <!-- LinkedIn -->
+              <a
+                href=""
+                target="_blank"
+                class="border-second hover:border-first hover:bg-first mr-3 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/linkedin.png"
+                  alt="LinkedIn"
+                  class="invert filter transition duration-200 ease-in-out hover:invert-0"
+                />
+              </a>
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/__secretaqua2/"
+                target="_blank"
+                class="border-second hover:border-first hover:bg-first mr-3 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/instagram.png"
+                  alt="Instagram"
+                  class="invert filter transition duration-200 ease-in-out hover:invert-0"
+                />
+              </a>
+              <!-- Facebook -->
+              <a
+                href="https://web.facebook.com/florika.ikaa"
+                target="_blank"
+                class="border-second hover:border-first hover:bg-first mr-3 flex h-9 w-9 items-center justify-center rounded-full border"
+              >
+                <img
+                  src="../img/facebook.png"
+                  alt="Facebook"
+                  class="invert filter transition duration-200 ease-in-out hover:invert-0"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 text-center text-sm">
+          <p>
+            Copyright ©2024 All rights reserved | Website made by
+            <span class="text-red-500">❤</span> Florika
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
